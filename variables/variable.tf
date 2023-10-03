@@ -15,7 +15,7 @@ variable "tag" {
 }
 output "public_ip" {
     description = "ec2 instance public_ip"
-    value = aws_instance.example_instance.public_ip
+    value = aws_instance.example_instance.public_ip            #resource.resource name.output
   
 }
 output "security_groups" {
